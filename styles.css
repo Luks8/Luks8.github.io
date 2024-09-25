@@ -2,6 +2,11 @@
   font-family: "Winner Bold";
   src: url("/fuentes/winner-bold.ttf") format("truetype");
 }
+img {
+  width: 680px;
+  height: 510px;
+  object-fit: cover;
+}
 * {
   margin: 0;
   padding: 0;
