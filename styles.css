@@ -3,9 +3,9 @@
   src: url("/fuentes/winner-bold.ttf") format("truetype");
 }
 img {
-  width: 680px;
-  height: 510px;
-  object-fit: cover;
+  width: 100%; /* Ancho del 100% del contenedor */
+  max-width: 680px; /* Pero no más de 680px */
+  height: auto; /* Mantiene la relación de aspecto */
 }
 * {
   margin: 0;
@@ -94,4 +94,5 @@ footer {
 }
 .redes {
   max-width: 30px;
+  max-height: 30px;
 }
